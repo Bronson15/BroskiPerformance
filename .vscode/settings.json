@@ -1,0 +1,12 @@
+{
+    "gitflow4code.features": [
+        {
+            "name": "feature/home-page",
+            "base": "develop"
+        },
+        {
+            "name": "feature/header",
+            "base": "develop"
+        }
+    ]
+}
