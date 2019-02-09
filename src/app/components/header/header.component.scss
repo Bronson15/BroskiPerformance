@@ -1,0 +1,48 @@
+@import "../../../styles.scss";
+
+.navbar {
+    overflow: hidden;
+    background-color: #000;
+    padding: .5rem .5rem;
+
+    a {
+        float: left;
+        color: white;
+        text-align: center;
+        padding: .3rem;
+        text-decoration: none;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+
+        :hover {
+            color: $broski-blue;
+        }
+
+        .active {
+            color: $broski-blue;
+        }
+
+        
+    }
+    img {
+        height: 5rem;
+        margin-top: .5rem;
+        padding-left: 1rem;
+    }
+}
+
+.navbar-right {
+        float: right;
+        margin-top: 1.5rem;
+        letter-spacing: .01rem;
+        padding-right: 1rem; 
+
+        :hover {
+            color: $broski-blue;
+        }
+
+        .active {
+            color: $broski-blue;
+        }
+}
